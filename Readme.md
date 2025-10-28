@@ -89,13 +89,21 @@ Update credentials inside the script:
 Then open http://localhost:8501
  in your browser.
 🧩 Future Enhancements
+
 🔐 Implement user authentication with hashed passwords
+
 📊 Add admin dashboards for property analytics
+
 🖼️ Support property image uploads
+
 📅 Introduce calendar-based rental period selection
+
 ☁️ Deploy using Docker + AWS RDS
 
 🧑‍💻 Author
+
 Kadhiravan Gopal
+
 M.S. Artificial Intelligence – Illinois Institute of Technology
+
 https://kadhiravang.github.io
