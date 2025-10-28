@@ -61,29 +61,29 @@ Hosting (Optional)	Streamlit Cloud / Localhost
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/kadhiravang/RealEstate-Management.git
-cd RealEstate-Management
+`git clone https://github.com/kadhiravang/RealEstate-Management.git
+cd RealEstate-Management`
 
 2️⃣ Configure PostgreSQL
 Create a new PostgreSQL database named Real-Estate-Management
 Update credentials inside the script:
 
-def get_connection():
+`def get_connection():
     return psycopg2.connect(
         host='localhost',
         dbname='Real-Estate-Management',
         user='postgres',
         password='test@123',
         port='5432'
-    )
+    )`
 
 3️⃣ Install Dependencies
 
-pip install streamlit psycopg2
+`pip install requirements.txt`
 
 4️⃣ Run the Application
 
-streamlit run Real_Estate_Management.py
+`streamlit run Real_Estate_Management.py`
 
 
 Then open http://localhost:8501
